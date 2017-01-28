@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Something.</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+    <!--     Fonts and icons     -->
+    <link href="../favicon.png" rel="shortcut icon">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+
+    <link href="assets/bootstrap.css" rel="stylesheet" />
+    <link href="assets/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/jquery.fullPage.css" />
+    <script src="https://use.fontawesome.com/97e789bb27.js"></script>
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body class="landing-page" style="background-color: white">
+
+    <div id="fullpage">
+        <div class="row section" id="section0">
+            <div class="col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+                <h1 class="title sharpUnity grey text-center" style="font-size: 4rem">Hey!</h1>
+                <h1 class="title sharpUnity black text-center" style="font-size: 5.8rem"><span class="grey">We are </span>Something<span class="darkgrey sharpUnitySB">*</span></h1>
+                <br><br><br><br><br><br>
+                <h1 class="title sharpUnity grey text-center" style="font-size: 3rem"><span class="sharpUnitySB">*</span>No, that's not a typo.</h1>
+            </div>
+        </div>
+        <div class="row section" id="section1">
+            <div class="col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+                <h1 class="title sharpUnity grey text-center" style="font-size: 3.5rem">We are just two guys who love the internet and know our shit. <br>Together, we're <span class="black">full-stack developers.</span></h1>
+            </div>
+        </div>
+        <div class="row section" id="section2">
+            <div class="col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+                <h1 class="title sharpUnity grey text-center" style="font-size: 5.5rem">We love<br> <span id="loves" class="black">Something</span></h1>
+            </div>
+        </div>
+        <div class="row section" id="portfolio">
+            <div class="col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+                <h1 class="title sharpUnity grey text-center" style="font-size: 5.5rem">Yes, we do have prior experience.<br><br>
+                    <i class="fa fa-1x fa-long-arrow-down black"></i>
+<!--
+                <ul class="no-list-bullet">
+                    <li><a href="//ldcnitw.com" class="sharpUnity">Literary and Debating Club, NIT Warangal</a></li>
+                </ul>
+-->
+                </h1>
+            </div>
+        </div>
+        <div class="row section" id="ldc">
+            <div class="col-md-10 offset-md-1 col-sm-10 offset-sm-1 text-center">
+                <a href="https://ldcnitw.com" class="darkgrey link">
+                    <h1 class="title sharpUnity black text-center" style="font-size: 4.5rem">Literary and Debating Club, NIT Warangal</h1>
+                    <img src="assets/LDC.png" height="auto" width="700px">
+                </a>
+            </div>
+        </div>
+        <div class="row section" id="qc">
+            <div class="col-md-10 offset-md-1 col-sm-10 offset-sm-1 text-center">
+                <a href="https://qcnitw.in" class="darkgrey link">
+                    <h1 class="title sharpUnity black text-center" style="font-size: 4.5rem">Quiz Club, NIT Warangal</h1>
+                    <img src="assets/QC.png" height="auto" width="700px">
+                </a>
+            </div>
+        </div>
+        <div class="row section" id="next">
+            <div class="col-md-10 offset-md-1 col-sm-10 offset-sm-1 text-center">
+                <a href="#contact" class="darkgrey link">
+                    <h1 class="title sharpUnity grey text-center" style="font-size: 4.5rem">Your Website. Here.<br><br><span class="darkgrey">Contact us now!</span></h1>
+                </a>
+            </div>
+        </div>
+        <div class="row section" id="contact">
+            <div class="col-md-10 offset-md-1 col-sm-10 offset-sm-1 text-center">
+                <a href="#contact" class="darkgrey link">
+                    <h1 class="title sharpUnity grey text-center" style="font-size: 4.5rem">waaaaaaaaaaaaaaaait</h1>
+                </a>
+            </div>
+        </div>
+        <div id="footer" class="section">
+            <footer class="footer text-center">
+                <div class="container">
+                    <h1 class="black sharpUnity">Made with <i class="fa fa-code"></i>, <i class="fa fa-coffee" id="coffee"></i> and <i class="fa fa-heart" id="heart"></i> by <span class="special">Something</span></h1>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/jquery.min.js" type="text/javascript"></script>
+<script src="assets/bootstrap.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/jquery.fullPage.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            //            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
+        });
+    });
+</script>
+<script src="assets/custom.js"></script>
+
+
+</html>
