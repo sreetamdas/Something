@@ -85,3 +85,7 @@
 #coffee {
     color: #6f4e37;
 }
+
+.padded {
+    padding: 10px 5px!important;
+}
